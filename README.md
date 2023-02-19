@@ -1,4 +1,7 @@
 # PYLON_EMU
+
+*** This is a project specific fork of https://github.com/juamiso/PYLON_EMU and it is strongly recommended to use that repo instead ***
+
 Python script to emulate the outgoing CAN bus traffic from a Pylontech LFP battery pack (48V)
 
 Useful script to make a hybrid inverter think that your self made battery pack is a Pylontech one. This should allow you to use any battery pack that you have designed with many hybrid inverters which support pylontech LFP batteries.
