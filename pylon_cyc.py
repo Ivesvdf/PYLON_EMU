@@ -36,8 +36,8 @@ def test_periodic_send_with_modifying_data(bus, dbc_path):
       'Battery_voltage' : 0}
 
     msg_data_Battery_limits = {
-    'Battery_discharge_current_limit' : -30,
-    'Battery_charge_current_limit' : 20,
+    'Battery_discharge_current_limit' : -100,
+    'Battery_charge_current_limit' : 100,
     'Battery_charge_voltage' : 56,
     'Battery_discharge_voltage' : 49 }
 
